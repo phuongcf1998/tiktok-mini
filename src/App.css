@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Quicksand', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+.App {}
+
+
+.wrapper-app {
+  margin: 0 auto;
+  max-width: 1142px;
+  padding: 0 15px;
+  display: grid;
+  grid-auto-columns: auto;
+
+
+}
+
+.video-container {}
+
+

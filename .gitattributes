@@ -1,0 +1,3 @@
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.pack_[[:space:]].pack filter=lfs diff=lfs merge=lfs -text
+*.pack_ filter=lfs diff=lfs merge=lfs -text

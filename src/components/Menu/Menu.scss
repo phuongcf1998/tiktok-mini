@@ -1,0 +1,98 @@
+.menu_wrapper {
+  display: flex;
+
+  position: fixed;
+  // left: 66px;
+  flex-direction: column;
+  top: 60px;
+  // left: 60px;
+  border-bottom: 1px rgb(222, 185, 185);
+  padding-right: 20px;
+
+  a:hover {
+    color: red;
+  }
+  overflow: auto;
+  height: 100%;
+
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+}
+
+.menu_suggest--list {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+
+    top: -10px;
+    height: 1px;
+    background: rgba(22, 24, 35, 0.12);
+  }
+}
+
+.menu_suggest--item {
+  margin-bottom: 20px;
+
+  &--link {
+    display: inline-flex;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(22, 24, 35, 1);
+  }
+  &-icon {
+    margin-right: 5px;
+    line-height: 20px;
+    display: inline-block;
+  }
+}
+
+.menu_account_suggest {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.menu_account_avatar {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.menu_account_info {
+}
+.menu_account_id--des {
+  font-weight: bolder;
+}
+.menu_account_status-icon {
+  color: rgb(32, 213, 236);
+  margin-left: 5px;
+}
+.menu_account_name--des {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0 auto;
+  display: inline-block;
+}
+.menu_account_id-wrapper {
+}
+
+.close-menu {
+  display: none;
+}
+.close-icon {
+  height: 28px;
+  width: 28px;
+  color: black;
+}
