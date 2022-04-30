@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tiktok-mini/static/css/main.472016d1.css",
+    "main.js": "/tiktok-mini/static/js/main.49147a77.js",
+    "static/js/787.c7aafdec.chunk.js": "/tiktok-mini/static/js/787.c7aafdec.chunk.js",
+    "static/media/video3.mp4": "/tiktok-mini/static/media/video3.83bf66727ca13715da0f.mp4",
+    "static/media/video6.mp4": "/tiktok-mini/static/media/video6.29a92acf9982efc1e766.mp4",
+    "static/media/video1.mp4": "/tiktok-mini/static/media/video1.2a19019e36bcb6473162.mp4",
+    "static/media/video5.mp4": "/tiktok-mini/static/media/video5.c05db44cf747f3dd42aa.mp4",
+    "static/media/video4.mp4": "/tiktok-mini/static/media/video4.ebe4ea7b0e6c53eee82a.mp4",
+    "static/media/video2.mp4": "/tiktok-mini/static/media/video2.e076faf08a3ac33059d4.mp4",
+    "static/media/video7.mp4": "/tiktok-mini/static/media/video7.324a62bd75346f68b7bc.mp4",
+    "static/media/avatar-user.jpg": "/tiktok-mini/static/media/avatar-user.4e9bf9094f2cd4c3018c.jpg",
+    "static/media/avatar6.jpeg": "/tiktok-mini/static/media/avatar6.ac8e4884a145e01384ba.jpeg",
+    "index.html": "/tiktok-mini/index.html",
+    "main.472016d1.css.map": "/tiktok-mini/static/css/main.472016d1.css.map",
+    "main.49147a77.js.map": "/tiktok-mini/static/js/main.49147a77.js.map",
+    "787.c7aafdec.chunk.js.map": "/tiktok-mini/static/js/787.c7aafdec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472016d1.css",
+    "static/js/main.49147a77.js"
+  ]
+}
