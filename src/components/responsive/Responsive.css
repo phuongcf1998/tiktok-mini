@@ -138,4 +138,10 @@
     overflow: auto;
     text-overflow: ellipsis;
   }
+}
+@media screen and (min-width: 939px) {
+  /* .App {} */
+  .menu_wrapper {
+    display: block !important;
+  }
 }/*# sourceMappingURL=Responsive.css.map */

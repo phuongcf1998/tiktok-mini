@@ -131,21 +131,20 @@ const VideoContent = ({ url, urlAvatar }) => {
   const isVisibile = useElementOnScreen(options, videoRef);
 
   useEffect(() => {
-    if (isVisibile) {
-      var playPromise = videoRef.current.play();
+    document.addEventListener("visibilitychange", function (event) {
+      if (document.hidden) {
+        videoRef.current.pause();
+        isVisibile = false;
+      
+      } else {
+        isVisibile = true;
+      }
+    });
 
-      if (playPromise !== undefined) {
-        playPromise
-          .then((_) => {
-            if (!isPlaying) {
-              videoRef.current.play();
-              setPlaying(true);
-            }
-          })
-          .catch((error) => {
-            // Auto-play was prevented
-            // Show paused UI.
-          });
+    if (isVisibile) {
+      if (!isPlaying) {
+        videoRef.current.play();
+        setPlaying(true);
       }
     } else {
       if (isPlaying) {
@@ -180,21 +179,19 @@ const VideoContent = ({ url, urlAvatar }) => {
   return (
     <>
       <div className="video_content-wrapper">
-     
-          <video
-            controls
-            autoPlay="autoplay"
-            webkit-playsinline="true"
-            playsInline
-            ref={videoRef}
-            onClick={playVideo}
-            loop
-            alt="Video"
-            className="video_content-clip"
-            src={url}
-            type="video/mp4"
-          />
-       
+        <video
+          controls
+          autoPlay="autoplay"
+          webkit-playsinline="true"
+          playsInline
+          ref={videoRef}
+          onClick={playVideo}
+          loop
+          alt="Video"
+          className="video_content-clip"
+          src={url}
+          type="video/mp4"
+        />
 
         <div className="video_content-emoji">
           <img src={urlAvatar} className="avatar-info" alt="Avatar" />

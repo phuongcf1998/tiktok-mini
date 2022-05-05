@@ -27,8 +27,6 @@
     cursor: pointer;
   }
 
-
-
   // #toggle-menu:checked   .menu_wrapper {
   //   display: block;
   // }
@@ -160,5 +158,11 @@
     -webkit-box-orient: vertical;
     overflow: auto;
     text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 939px) {
+  /* .App {} */
+  .menu_wrapper {
+    display: block!important;
   }
 }

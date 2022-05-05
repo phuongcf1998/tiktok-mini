@@ -11,6 +11,14 @@ import {
 export default function Header() {
   const overplayRef = useRef();
   const menubarRef = useRef();
+  // useEffect(() => {
+  //   const menu = document.getElementById("menu-bar");
+  //   if (window.screen.width > 1023) {
+   
+  //     menu.style.display = "block";
+  //   }
+  // }, [window.screen.width]);
+
   const showMenuMobile = () => {
     const menu = document.getElementById("menu-bar");
     const overlay = document.getElementById("nav_overplay");
