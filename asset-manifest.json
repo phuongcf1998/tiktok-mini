@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tiktok-mini/static/css/main.472016d1.css",
-    "main.js": "/tiktok-mini/static/js/main.49147a77.js",
+    "main.css": "/tiktok-mini/static/css/main.38ac06d9.css",
+    "main.js": "/tiktok-mini/static/js/main.a11dd3d1.js",
     "static/js/787.c7aafdec.chunk.js": "/tiktok-mini/static/js/787.c7aafdec.chunk.js",
     "static/media/video3.mp4": "/tiktok-mini/static/media/video3.83bf66727ca13715da0f.mp4",
     "static/media/video6.mp4": "/tiktok-mini/static/media/video6.29a92acf9982efc1e766.mp4",
@@ -13,12 +13,12 @@
     "static/media/avatar-user.jpg": "/tiktok-mini/static/media/avatar-user.4e9bf9094f2cd4c3018c.jpg",
     "static/media/avatar6.jpeg": "/tiktok-mini/static/media/avatar6.ac8e4884a145e01384ba.jpeg",
     "index.html": "/tiktok-mini/index.html",
-    "main.472016d1.css.map": "/tiktok-mini/static/css/main.472016d1.css.map",
-    "main.49147a77.js.map": "/tiktok-mini/static/js/main.49147a77.js.map",
+    "main.38ac06d9.css.map": "/tiktok-mini/static/css/main.38ac06d9.css.map",
+    "main.a11dd3d1.js.map": "/tiktok-mini/static/js/main.a11dd3d1.js.map",
     "787.c7aafdec.chunk.js.map": "/tiktok-mini/static/js/787.c7aafdec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.472016d1.css",
-    "static/js/main.49147a77.js"
+    "static/css/main.38ac06d9.css",
+    "static/js/main.a11dd3d1.js"
   ]
 }
